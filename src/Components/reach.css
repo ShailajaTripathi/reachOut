@@ -1,3 +1,5 @@
+
+/* @media (min-width:1025px)  { */
 .reachout-container{
     margin-top:3%;
     display:flex;
@@ -16,6 +18,9 @@ font-size: 36px;
 line-height: 47px;
 text-align: center;
 color: #633EA5;
+
+/* additional styles */
+white-space: nowrap;
 }
 .reachout-input{
     background: #FFFFFF;
@@ -55,11 +60,11 @@ color:white;
     width:40%;
     /* height: 50%;*/
     /* border-radius:20%;  */
+
+
 }
-
-
 /*-----------------------------for mobile view --------------------------- */
-@media (min-width:480px)  {
+/* @media (max-width:480px)  {
     .reachout-container{
         display: block;
         width: 30%;
@@ -71,28 +76,30 @@ color:white;
         display: none;
     }
 
-}
-@media (min-width:300px)  {
-    .reachout-container{
+} */
+@media (max-width:950px) {
+    /* .reachout-container{
         display: block;
         width: 40%;
         margin-left:5%;
         padding:5%;
-    }
+    } */
     .reachout-title{
-        font-size: 26px;
-        line-height:15px;
+        font-size: 30px;
+        line-height:25px;
         white-space: nowrap;
         text-align: left;
     }
 
     .reachout-image{
-        display: none;
+        margin-left: 6%;
+        margin-top: 5%;
     }
 
-}
 
-@media (min-width:200px)  {
+}
+@media (min-device-width: 200px) 
+and (max-device-width: 700px)  {
     .reachout-container{
         display: block;
         width: 40%;
