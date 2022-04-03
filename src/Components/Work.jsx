@@ -38,7 +38,7 @@ function Work() {
               </p>
             </div>
             {/* second-card */}
-            <div className=" intuitive work-card-item">
+            <div className=" intuitive work-card-item right-card">
               <h1>INTUITIVE</h1>
               <p>
                 No learning curve: If you know one conferencing software, you
@@ -51,7 +51,7 @@ function Work() {
           {/* second card-row */}
           <div className="work-card-row">
             {/* first card */}
-            <div className="work-card-row">
+  
               <div className="work-card-item">
                 <h1>FLEXIBLE</h1>
                 <p>
@@ -61,7 +61,7 @@ function Work() {
                 </p>
               </div>
               {/* second-card */}
-              <div className="work-card-item">
+              <div className="work-card-item right-card">
                 <h1>EXPERIENCED</h1>
                 <p>
                   Know that we've always got your back with on-demand resources
@@ -70,7 +70,6 @@ function Work() {
                 </p>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>

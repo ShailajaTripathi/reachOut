@@ -1,5 +1,3 @@
-
-/* @media (min-width:1025px)  { */
 .reachout-container{
     margin-top:3%;
     display:flex;
@@ -77,6 +75,7 @@ color:white;
     }
 
 } */
+/*-----------------------for tablets--------------------- */
 @media (max-width:950px) {
     /* .reachout-container{
         display: block;
@@ -97,7 +96,10 @@ color:white;
     }
 
 
+
 }
+
+/* --------------------for mobile devices---------------------- */
 @media (min-device-width: 200px) 
 and (max-device-width: 700px)  {
     .reachout-container{
