@@ -1,0 +1,58 @@
+.reachout-container{
+    margin-top:3%;
+    display:flex;
+    justify-content:space-around;
+  
+}
+.reachout-form{
+    margin-left:3%;
+
+}
+.reachout-title {
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+color: #633EA5;
+}
+.reachout-input{
+    background: #FFFFFF;
+    border: 1px solid #D7D7D7;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+/* Additional styling below*/
+    display:block;
+    width: 200%;
+    padding:5%;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    height: 45px;
+}
+
+.reachout-btn{
+background: #633EA5;
+border: 1px solid #633EA5;
+box-sizing: border-box;
+border-radius: 4px;
+
+/* Additional styling below*/
+margin-left: 120%;
+padding:5%;
+width: 80%;
+cursor: pointer;
+color:white;
+}
+
+/* form section ends here */
+
+/* image section starts */
+
+.reachout-image img{
+    width:40%;
+    /* height: 50%;*/
+    /* border-radius:20%;  */
+}
