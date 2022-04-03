@@ -4,7 +4,8 @@ import Work from './Components/Work'
 function App() {
   return (
     <div className="App">
-     <Work/>
+     {/* <Work/> */}
+     <Reach/>
     </div>
   );
 }
